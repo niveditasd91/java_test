@@ -51,7 +51,7 @@ public class ListBox {
 		List<WebElement> allLinks = driver.findElements(By.xpath("//div[contains(text(),'java')]"));
 		System.out.println(allLinks.size());
 		allLinks.forEach((e) -> System.out.println(e.getText()));
-		allLinks.get(1).click();
+		allLinks.get(0).click();
 		
 		/*for (WebElement link : allLinks) {
 			
