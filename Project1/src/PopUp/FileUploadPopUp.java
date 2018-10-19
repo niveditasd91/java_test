@@ -17,10 +17,10 @@ public class FileUploadPopUp {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get("http:\\www.naukri.com");
 		driver.findElement(By.xpath("//span[text()='Later']")).click();
-		File f=new File("./cv/Megha.3ys.selenium.txt");
+		File f=new File("./cv/niveditacv.3yrs.docx");
 		String path=f.getAbsolutePath();
 		driver.findElement(By.id("input_resumeParser")).sendKeys(path);
-		String msg=driver.findElement(By.className("Success")).getText();
+		String msg=driver.findElement(By.className("success")).getText();
 		System.out.println(msg);
 		
 }

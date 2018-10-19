@@ -33,8 +33,8 @@ public class ClearTrip {
 		//select goa from auto suggestion
 		driver.findElement(By.xpath("//a[contains(text(),'Dabolim')]")).click();
 		//select todays's date in calendar
-		//driver.findElement(By.xpath("//a[contains(@class,'highlight')]")).click();
-		driver.findElement(By.xpath("//td[@data-month='8']/a[text()='6']")).click();
+		driver.findElement(By.xpath("//a[contains(@class,'highlight')]")).click();
+		//driver.findElement(By.xpath("//td[@data-month='8']/a[text()='6']")).click();
 		//click search button
 		driver.findElement(By.id("SearchBtn")).click();
 		List<WebElement> allprices = driver.findElements(By.xpath("//th[@class='price']"));
@@ -45,7 +45,7 @@ public class ClearTrip {
 			System.out.println("formated:"+formatedText);
 			int v = Integer.parseInt(formatedText);
 			System.out.println("Int:"+v);
-		
+		}
 		for(int i=1;i<allprices.size();i++) {
 			String p1=allprices.get(i-1).getText().substring(1).replaceAll(",", "");
 			String p2=allprices.get(i).getText().substring(1).replaceAll(",", "");
@@ -74,4 +74,4 @@ public class ClearTrip {
 		System.out.println(s1);
 		System.out.println(s2);*/
 	}
-	}}
+	}

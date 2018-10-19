@@ -69,12 +69,9 @@ public class ListBox {
 		List<String> allText=new ArrayList<String>();
 		for(WebElement option:allOptions) {
 			allText.add(option.getText());
-			//System.out.println(allText.size());
 		}
-		int count =0;
-		for(int i=1;i<allText.size();i++) {
-			
-		}
+		System.out.println(allText);
+		System.out.println(allText.size());
+
 	}
 }
-

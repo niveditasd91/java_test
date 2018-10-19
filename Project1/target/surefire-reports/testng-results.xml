@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Hiiiiiiiiiiiiiiii]]>
+    </line>
+    <line>
+      <![CDATA[Test:demo is pass ]]>
+    </line>
+    <line>
+      <![CDATA[TestName:demo Status:PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5074" started-at="2018-10-19T08:14:09Z" finished-at="2018-10-19T08:14:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5074" started-at="2018-10-19T08:14:09Z" finished-at="2018-10-19T08:14:14Z">
+      <class name="Practice.DemoMaven">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Practice.DemoMaven@b7bfc0]" name="openApp" is-config="true" duration-ms="4297" started-at="2018-10-19T08:14:09Z" finished-at="2018-10-19T08:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:Practice.DemoMaven@b7bfc0]" name="demo" duration-ms="4" started-at="2018-10-19T08:14:13Z" finished-at="2018-10-19T08:14:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hiiiiiiiiiiiiiiii]]>
+            </line>
+            <line>
+              <![CDATA[Test:demo is pass ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Practice.DemoMaven@b7bfc0]" name="closeApp" is-config="true" duration-ms="757" started-at="2018-10-19T08:14:13Z" finished-at="2018-10-19T08:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demo status=SUCCESS method=DemoMaven.demo()[pri:0, instance:Practice.DemoMaven@b7bfc0] output=Hiiiiiiiiiiiiiiii]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestName:demo Status:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Practice.DemoMaven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

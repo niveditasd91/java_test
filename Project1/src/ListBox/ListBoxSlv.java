@@ -52,7 +52,7 @@ public class ListBoxSlv {
 		
 		
 	//select and deselect all the options in reverse order
-		WebDriver driver=new ChromeDriver();
+		/*WebDriver driver=new ChromeDriver();
 		driver.get("file:///C:/Users/mege/Desktop/SLV.html");
 		WebElement listBox = driver.findElement(By.id("SLV"));
 		Select select=new Select(listBox);
@@ -63,7 +63,7 @@ public class ListBoxSlv {
 		for (int i = allOptions.size()-1; i>=0; i--) {
 			select.deselectByIndex(i);
 		}
-		
+		*/
 		
 		
 	//Print the content of listBox
@@ -154,7 +154,7 @@ public class ListBoxSlv {
 		
 	// Print the options present in listBox with their occurance
       
-		/*WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("file:///C:/Users/mege/Desktop/SLV.html");
 		WebElement listBox = driver.findElement(By.id("SLV"));
 		Select select = new Select(listBox);
@@ -171,7 +171,7 @@ public class ListBoxSlv {
 			}
 		}
 		System.out.println(map);
-		*/
+		
 		
 		
 
