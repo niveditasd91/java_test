@@ -14,15 +14,15 @@
       <![CDATA[TestName:testA Status:PASS]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="11589" started-at="2018-10-26T07:56:36Z" finished-at="2018-10-26T07:56:47Z">
+  <suite name="Suite" duration-ms="15814" started-at="2018-10-26T08:58:03Z" finished-at="2018-10-26T08:58:19Z">
     <groups>
       <group name="smoke">
         <method signature="OrangeTC1.testA()[pri:1, instance:Script.OrangeTC1@1afa04c]" name="testA" class="Script.OrangeTC1"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="11589" started-at="2018-10-26T07:56:36Z" finished-at="2018-10-26T07:56:47Z">
+    <test name="Test" duration-ms="15814" started-at="2018-10-26T08:58:03Z" finished-at="2018-10-26T08:58:19Z">
       <class name="Script.OrangeTC1">
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Script.OrangeTC1@1afa04c]" name="openApp" is-config="true" duration-ms="5758" started-at="2018-10-26T07:56:36Z" finished-at="2018-10-26T07:56:42Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Script.OrangeTC1@1afa04c]" name="openApp" is-config="true" duration-ms="10252" started-at="2018-10-26T08:58:03Z" finished-at="2018-10-26T08:58:14Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:1, instance:Script.OrangeTC1@1afa04c]" name="testA" duration-ms="4917" started-at="2018-10-26T07:56:42Z" finished-at="2018-10-26T07:56:47Z">
+        <test-method status="PASS" signature="testA()[pri:1, instance:Script.OrangeTC1@1afa04c]" name="testA" duration-ms="5375" started-at="2018-10-26T08:58:14Z" finished-at="2018-10-26T08:58:19Z">
           <reporter-output>
             <line>
               <![CDATA[Helloooooooo]]>
@@ -51,7 +51,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.OrangeTC1@1afa04c]" name="closeApp" is-config="true" duration-ms="863" started-at="2018-10-26T07:56:47Z" finished-at="2018-10-26T07:56:47Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.OrangeTC1@1afa04c]" name="closeApp" is-config="true" duration-ms="133" started-at="2018-10-26T08:58:19Z" finished-at="2018-10-26T08:58:19Z">
           <params>
             <param index="0">
               <value>
