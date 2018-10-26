@@ -2,25 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Hiiiiiiiiiiiiiiii]]>
+      <![CDATA[Helloooooooo]]>
     </line>
     <line>
-      <![CDATA[Test:demo is pass ]]>
+      <![CDATA[Element is visible]]>
     </line>
     <line>
-      <![CDATA[TestName:demo Status:PASS]]>
+      <![CDATA[Test:testA is pass ]]>
+    </line>
+    <line>
+      <![CDATA[TestName:testA Status:PASS]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="5074" started-at="2018-10-19T08:14:09Z" finished-at="2018-10-19T08:14:14Z">
+  <suite name="Suite" duration-ms="11589" started-at="2018-10-26T07:56:36Z" finished-at="2018-10-26T07:56:47Z">
     <groups>
+      <group name="smoke">
+        <method signature="OrangeTC1.testA()[pri:1, instance:Script.OrangeTC1@1afa04c]" name="testA" class="Script.OrangeTC1"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="5074" started-at="2018-10-19T08:14:09Z" finished-at="2018-10-19T08:14:14Z">
-      <class name="Practice.DemoMaven">
-        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Practice.DemoMaven@b7bfc0]" name="openApp" is-config="true" duration-ms="4297" started-at="2018-10-19T08:14:09Z" finished-at="2018-10-19T08:14:13Z">
+    <test name="Test" duration-ms="11589" started-at="2018-10-26T07:56:36Z" finished-at="2018-10-26T07:56:47Z">
+      <class name="Script.OrangeTC1">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Script.OrangeTC1@1afa04c]" name="openApp" is-config="true" duration-ms="5758" started-at="2018-10-26T07:56:36Z" finished-at="2018-10-26T07:56:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[localhost]]>
+                <![CDATA[192.168.43.38]]>
               </value>
             </param>
             <param index="1">
@@ -32,31 +38,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="demo()[pri:0, instance:Practice.DemoMaven@b7bfc0]" name="demo" duration-ms="4" started-at="2018-10-19T08:14:13Z" finished-at="2018-10-19T08:14:13Z">
+        <test-method status="PASS" signature="testA()[pri:1, instance:Script.OrangeTC1@1afa04c]" name="testA" duration-ms="4917" started-at="2018-10-26T07:56:42Z" finished-at="2018-10-26T07:56:47Z">
           <reporter-output>
             <line>
-              <![CDATA[Hiiiiiiiiiiiiiiii]]>
+              <![CDATA[Helloooooooo]]>
             </line>
             <line>
-              <![CDATA[Test:demo is pass ]]>
+              <![CDATA[Element is visible]]>
+            </line>
+            <line>
+              <![CDATA[Test:testA is pass ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Practice.DemoMaven@b7bfc0]" name="closeApp" is-config="true" duration-ms="757" started-at="2018-10-19T08:14:13Z" finished-at="2018-10-19T08:14:14Z">
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.OrangeTC1@1afa04c]" name="closeApp" is-config="true" duration-ms="863" started-at="2018-10-26T07:56:47Z" finished-at="2018-10-26T07:56:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demo status=SUCCESS method=DemoMaven.demo()[pri:0, instance:Practice.DemoMaven@b7bfc0] output=Hiiiiiiiiiiiiiiii]]]>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=OrangeTC1.testA()[pri:1, instance:Script.OrangeTC1@1afa04c] output=Helloooooooo]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[TestName:demo Status:PASS]]>
+              <![CDATA[TestName:testA Status:PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- Practice.DemoMaven -->
+      </class> <!-- Script.OrangeTC1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
